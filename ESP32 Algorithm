@@ -1,3 +1,16 @@
+Programming Environments:
+Arduino IDE: https://randomnerdtutorials.com/projects-esp32/
+
+Preparing the ESP32 Board in Arduino IDE:
+Windows: https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
+
+Steps:
+1- Plug the ESP32 to your PC or laptob by using micro cable.
+2- Go to Tools > Board > Boards Manager > from the search bar write "esp32" > click on install.
+3- Go to Tools > Board > select the name of your ESP32 board.
+4- Go to Tools > Port and select a COM port available.
+5- write the following code in arduion editor :
+
 /*
   Blink
 
@@ -35,3 +48,7 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);                       // wait for a second
 }
+
+
+Important: always check the pinout for your specific board before building any circuit.
+6- Press the upload button.
